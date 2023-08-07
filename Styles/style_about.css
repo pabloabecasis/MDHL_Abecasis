@@ -29,7 +29,6 @@
 
 .bottom-header h2 {
     color: white;
-    font-size: x-large;
     width: 100%;
     text-align: center;
     line-height: 35px;
@@ -52,5 +51,6 @@
     width:200px;
 }
 .row-description-text{
-    margin-left:  10px;
+    margin-left:  3%;
+    text-align: justify     ;
 }

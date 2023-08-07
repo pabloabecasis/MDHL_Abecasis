@@ -29,7 +29,6 @@
 
 .bottom-header h2 {
     color: white;
-    font-size: x-large;
     width: 100%;
     text-align: center;
     line-height: 35px;
@@ -43,14 +42,16 @@
     right: 15%;
 }
 
+
 .row-container{
     display:flex;
-    padding:8px 16px;
+    padding: 16px 16px;
 
 }
 .row-index{
     width:200px;
 }
 .row-description-text{
-    margin-left:  10px;
+    margin-left:  30px;
+    text-align: justify     ;
 }
