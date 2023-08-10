@@ -86,9 +86,14 @@ nav > ul{
     margin-bottom: 40px;
 }
 
-.intro-container, .ul-container > p{
+.intro-container > p{
     text-indent: 40px;
 }
+
+.ul-container > p{
+    text-indent: 40px;
+}
+
 .lists-container{
     list-style-position: inside;
 }
@@ -98,3 +103,21 @@ nav > ul{
     padding-left: 45px;
 }
 
+table{
+    padding: 30px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+.font-italic{
+    font-style: italic;
+}
+.contact-container{
+    display:flex;
+    display:inline;
+    width: 100%;
+    justify-content: space-between;  
+}
