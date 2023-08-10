@@ -105,8 +105,11 @@ nav > ul{
 
 table{
     padding: 30px;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: 15%;
+    width: 70%;
+}
+th{
+    text-align:left;
 }
 
 .font-bold{
@@ -115,9 +118,17 @@ table{
 .font-italic{
     font-style: italic;
 }
+
+.mid-text-container>p{
+    padding-top: 10px;
+}
+.name-container{
+    padding-top: 10px;
+}
 .contact-container{
+    padding-top:10px;
     display:flex;
-    display:inline;
     width: 100%;
     justify-content: space-between;  
 }
+
