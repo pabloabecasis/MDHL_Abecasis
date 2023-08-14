@@ -7,7 +7,9 @@
 
 .page-container {
     padding: 10% 15%;
+    background-color: rgba(255, 255, 255, 0.972);
 }
+
 
 .header-banner-container {
     background-image: url("../Assets/design1_image1.jpg");
@@ -63,13 +65,13 @@ nav > ul{
 
 .page-section{
     display:flex;
-    display: block;
-    margin-top: 30px;
+    margin-top: 50px;
+    align-items: center;
 }
 
 .row-container{
     display:flex;
-    display: block;
+    flex-direction: column;
     padding:8px 16px;
 }
 
@@ -86,16 +88,23 @@ nav > ul{
     margin-bottom: 40px;
 }
 
+.intro-container{
+    padding: 20px;
+} 
+
 .intro-container > p{
     text-indent: 40px;
+
 }
 
 .ul-container > p{
     text-indent: 40px;
+    
 }
 
 .lists-container{
     list-style-position: inside;
+    
 }
 
 .ul-container >ul{
@@ -103,11 +112,25 @@ nav > ul{
     padding-left: 45px;
 }
 
+.ol-container{
+
+}
+
+.maps-container{
+    width: 90%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    gap: 20px;    
+    padding: 20px;
+}
+
 table{
     padding: 30px;
     margin-left: 15%;
     width: 70%;
 }
+
 th{
     text-align:left;
 }
@@ -132,3 +155,36 @@ th{
     justify-content: space-between;  
 }
 
+.register-form{
+    display:flex;
+    flex-direction: column;
+    padding:10px 200px;
+    width: 80%;
+    gap:25px;
+    
+}
+
+.input-styles{
+    padding: 15px;
+    outline:none;
+    border:none;
+    border-bottom: 1px solid black;
+    
+}
+
+fieldset{
+    border: none;
+    outline:none;
+}
+.text-container, .lists-container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.Permission{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+
+}
