@@ -159,7 +159,6 @@ th{
     display:flex;
     flex-direction: column;
     padding:10px 200px;
-    width: 80%;
     gap:25px;
     
 }
@@ -186,5 +185,24 @@ fieldset{
     display:flex;
     flex-direction: column;
     gap:20px;
+}
+@media only screen and (min-width:320px) and (max-width:500px) {
+    img {max-width: 100%;
+    }
 
+    .page-container img {
+
+        }       
+    }
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page-section{
+        max-width:75% ;
+        flex-direction: column;
+    }
+    .nav-container{
+        max-width: 20%;
+    }
 }
