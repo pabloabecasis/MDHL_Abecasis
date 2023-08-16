@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
 /*media queries pantalla chica */
 
 @media only screen and (max-width:599px)  {
@@ -52,7 +53,7 @@
     .bottom-header img {
         border: 2px solid white;
         background: black;
-        transform: scale(75%);
+        transform: scale(0.75);
         right: 0%;    
     }
 
@@ -88,6 +89,7 @@
         border: 2px solid;
         border-color: rgba(136, 120, 0, 0.814);
     }
+
     .row-container{
         padding-top: 20px;
     }
@@ -244,6 +246,11 @@
         font-size: x-large;
     }
 
+    .banner-title{
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
     .bottom-header {
         width: 100%;
         background-color: black;
@@ -321,16 +328,14 @@
 
     .main-title{
         text-align: center;
-        margin-bottom: 40px;
     }
 
     .intro-container{
-        padding: 20px;
+        padding-top: 20px;
     } 
 
     .intro-container > p{
         text-indent: 40px;
-
     }
 
     .ul-container > p{
@@ -356,10 +361,6 @@
 
     .secondary-ol {
         list-style-type: lower-latin;
-    }
-
-    .ol-container{
-
     }
 
     .maps-container{
@@ -409,7 +410,6 @@
         flex-direction: column;
         padding:10px 200px;
         gap:25px;
-        
     }
 
     .input-styles{
@@ -417,19 +417,22 @@
         outline:none;
         border:none;
         border-bottom: 1px solid black;
-        
     }
 
     fieldset{
         border: none;
         outline:none;
     }
+
     .text-container, .lists-container{
         display:flex;
         flex-direction: column;
         gap:20px;
     }
 
+    .text-container{
+        padding-left: 5%;
+    }
     .Permission{
         display:flex;
         flex-direction: column;
